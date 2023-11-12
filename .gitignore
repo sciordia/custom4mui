@@ -1,0 +1,10 @@
+# Ignorar la carpeta completa
+js/
+/.DS_Store
+/.Rbuildignore
+/.RData
+/.Rhistory
+/.Rprofile
+/.Rproj.user
+/renv
+/renv.lock
