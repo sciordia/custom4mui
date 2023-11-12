@@ -6,5 +6,6 @@ js/
 /.Rhistory
 /.Rprofile
 /.Rproj.user
+/.Ruserdata
 /renv
 /renv.lock
