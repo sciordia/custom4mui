@@ -12,3 +12,27 @@ CardContent(...)
 \description{
 Visit the documentation at https://mui.com/api/Card-Content/ for more information.
 }
+\examples{
+library(shiny)
+library(custom4mui)
+
+ui <- fluidPage(
+
+  # Application title
+  titlePanel("Card Example"),
+
+  # Card --------------------------------------------------------------------
+  tags$text("Card"),
+  Card(
+    CardContent("Hello world!")
+  ),
+  tags$br(),
+
+)
+
+server <- function(input, output, session) {
+
+}
+
+shinyApp(ui, server)
+}

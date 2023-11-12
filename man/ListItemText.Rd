@@ -12,3 +12,13 @@ ListItemText(...)
 \description{
 Visit the documentation at https://mui.com/api/List-Item-Text/ for more information.
 }
+\examples{
+library(shiny)
+library(shiny.mui)
+
+
+component_example(List(
+    ListItem(ListItemText(primary = "Hello", secondary = "First")),
+    ListItem(ListItemText(primary = "World", secondary = "second")),
+))
+}

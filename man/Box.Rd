@@ -12,3 +12,11 @@ Box(...)
 \description{
 Visit the documentation at https://mui.com/api/Box/ for more information.
 }
+\examples{
+library(custom4mui)
+library(shiny)
+
+  Box(backgroundColor = "blue", "Hello world!")
+
+
+}
