@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{usePagination}
 \alias{usePagination}
-\title{usePagination (NEW)}
+\title{usePagination}
 \usage{
 usePagination(...)
 }
@@ -10,5 +10,5 @@ usePagination(...)
 \item{...}{args to pass to element}
 }
 \description{
-Visit the documentation at https://mui.com/api/Zoom/ for more information.
+Visit the documentation at https://mui.com/material-ui/react-pagination/#usepagination for more information.
 }

@@ -1,4 +1,4 @@
-library(shiny.mui)
+library(custom4mui)
 library(shiny)
 
 if (interactive()) {

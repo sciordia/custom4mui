@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{TextField}
 \alias{TextField}
-\title{TextField (NO ESTÁ)}
+\title{TextField}
 \usage{
 TextField(...)
 }
@@ -10,40 +10,5 @@ TextField(...)
 \item{...}{args to pass to element}
 }
 \description{
-Visit the documentation at https://mui.com/material-ui/api/text-field/ for more information.
-}
-\examples{
-library(shiny)
-library(custom4mui)
-
-ui <- fluidPage(
-
-  # Application title
-  titlePanel("TextField Example"),
-
-  # TextField Input -----------------------------------------------------------
-  tags$text("TextField Input"),
-  p(),
-  TextField.shinyInput("text3",
-                       fullWidth = F,
-                       label = "Trial",
-                       value = "", #Default
-                       variant = "outlined",
-                       helperText = "Some important text",
-                       multiline = F),
-  textOutput("textValue3"),
-  tags$br(),
-
-)
-
-server <- function(input, output, session) {
-
-  #Output: TextField Input
-  output$textValue3 <- renderText({
-    sprintf("Value: \%s", input$text3)
-  })
-
-}
-
-shinyApp(ui, server)
+Visit the documentation at https://mui.com/api/TextField/ for more information.
 }

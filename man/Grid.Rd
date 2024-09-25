@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{Grid}
 \alias{Grid}
-\title{Grid}
+\title{Grid (deprecated)}
 \usage{
 Grid(...)
 }

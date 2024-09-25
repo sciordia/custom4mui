@@ -13,10 +13,9 @@ Box(...)
 Visit the documentation at https://mui.com/api/Box/ for more information.
 }
 \examples{
-library(custom4mui)
+library(shiny.mui)
 library(shiny)
-
+component_example(tagList(
   Box(backgroundColor = "blue", "Hello world!")
-
-
+))
 }

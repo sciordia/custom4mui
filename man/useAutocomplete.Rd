@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{useAutocomplete}
 \alias{useAutocomplete}
-\title{useAutocomplete (NEW)}
+\title{useAutocomplete}
 \usage{
 useAutocomplete(...)
 }
@@ -10,5 +10,5 @@ useAutocomplete(...)
 \item{...}{args to pass to element}
 }
 \description{
-Visit the documentation at https://mui.com/api/Global-Styles/ for more information.
+Visit the documentation at https://mui.com/base-ui/react-autocomplete/hooks-api/#use-autocomplete/ for more information.
 }

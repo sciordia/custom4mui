@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{darkScrollbar}
 \alias{darkScrollbar}
-\title{darkScrollbar (NEW)}
+\title{darkScrollbar}
 \usage{
 darkScrollbar(...)
 }

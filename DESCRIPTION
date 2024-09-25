@@ -1,7 +1,7 @@
 Package: custom4mui
 Type: Package
 Title: Mui fork to shiny written with the react.shiny library
-Version: 0.1.0
+Version: 0.2.0
 Author: Sergio Ciordia
 Maintainer: The package maintainer <sciordia@cnb.csic.es>
 Description: "A fork of the Mui library written with the react.shiny library."
@@ -12,4 +12,4 @@ Imports:
     shiny.react,
     htmltools,
     shiny
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2

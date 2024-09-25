@@ -49,7 +49,6 @@ AccordionSummary <- component("AccordionSummary")
 
 #' Alert
 #' @export
-#' @example inst/examples/Alert.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -66,20 +65,18 @@ AlertTitle <- component("AlertTitle")
 
 #' AppBar
 #' @export
-#' @example inst/examples/AppBar.R
 #' @md
 #' @param ... args to pass to element
 #' @description
 #' Visit the documentation at https://mui.com/api/App-Bar/ for more information.
 AppBar <- component("AppBar")
 
-#' Autocomplete (NEW)
+#' Autocomplete
 #' @export
-#' @example inst/examples/Autocomplete.R
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/App-Bar/ for more information.
+#' Visit the documentation at https://mui.com/api/autocomplete/ for more information.
 Autocomplete <- component("Autocomplete")
 
 #' Avatar
@@ -149,7 +146,6 @@ Breadcrumbs <- component("Breadcrumbs")
 
 #' Button
 #' @export
-#' @example inst/examples/Button.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -166,7 +162,6 @@ ButtonBase <- component("ButtonBase")
 
 #' ButtonGroup
 #' @export
-#' @example inst/examples/ButtonGroup.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -225,7 +220,6 @@ CardMedia <- component("CardMedia")
 
 #' Checkbox
 #' @export
-#' @example inst/examples/Checkbox.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -280,7 +274,7 @@ Container <- component("Container")
 #' Visit the documentation at https://mui.com/api/Css-Baseline/ for more information.
 CssBaseline <- component("CssBaseline")
 
-#' darkScrollbar (NEW)
+#' darkScrollbar
 #' @export
 #' @md
 #' @param ... args to pass to element
@@ -346,7 +340,6 @@ Drawer <- component("Drawer")
 
 #' Fab
 #' @export
-#' @example inst/examples/FloatingButton.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -409,7 +402,7 @@ FormHelperText <- component("FormHelperText")
 #' Visit the documentation at https://mui.com/api/Form-Label/ for more information.
 FormLabel <- component("FormLabel")
 
-#' Grid
+#' Grid (deprecated)
 #' @export
 #' @example inst/examples/Grid.R
 #' @md
@@ -418,14 +411,14 @@ FormLabel <- component("FormLabel")
 #' Visit the documentation at https://mui.com/api/Grid/ for more information.
 Grid <- component("Grid")
 
-#' Unstable_Grid2 (NEW)
+#' Grid2
 #' @export
 #' @example inst/examples/Grid.R
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/Grid/ for more information.
-Unstable_Grid2 <- component("Unstable_Grid2")
+#' Visit the documentation at https://mui.com/api/Grid2/ for more information.
+Grid2 <- component("Grid2")
 
 #' Grow
 #' @export
@@ -443,7 +436,7 @@ Grow <- component("Grow")
 #' Visit the documentation at https://mui.com/api/Hidden/ for more information.
 Hidden <- component("Hidden")
 
-#' Icon (BLOCKED)
+#' Icon
 #' @export
 #' @md
 #' @param ... args to pass to element
@@ -483,12 +476,12 @@ ImageListItem <- component("ImageListItem")
 #' Visit the documentation at https://mui.com/api/Image-List-Item-Bar/ for more information.
 ImageListItemBar <- component("ImageListItemBar")
 
-#' Input (NO ESTÁ)
+#' Input
 #' @export
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/Input-Adornment/ for more information.
+#' Visit the documentation at https://mui.com/api/Input/ for more information.
 Input <- component("Input")
 
 #' InputAdornment
@@ -681,7 +674,6 @@ PaginationItem <- component("PaginationItem")
 
 #' Paper
 #' @export
-#' @example inst/examples/Paper.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -714,7 +706,6 @@ Portal <- component("Portal")
 
 #' Radio
 #' @export
-#' @example inst/examples/RadioButton.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -731,7 +722,6 @@ RadioGroup <- component("RadioGroup")
 
 #' Rating
 #' @export
-#' @example inst/examples/Rating.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -748,7 +738,6 @@ ScopedCssBaseline <- component("ScopedCssBaseline")
 
 #' Select
 #' @export
-#' @example inst/examples/Select.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -773,7 +762,6 @@ Slide <- component("Slide")
 
 #' Slider
 #' @export
-#' @example inst/examples/Slider.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -902,7 +890,6 @@ SwipeableDrawer <- component("SwipeableDrawer")
 
 #' Switch
 #' @export
-#' @example inst/examples/Switch.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -1005,13 +992,12 @@ Tabs <- component("Tabs")
 #' Visit the documentation at https://mui.com/api/Tab-Scroll-Button/ for more information.
 TabScrollButton <- component("TabScrollButton")
 
-#' TextField (NO ESTÁ)
+#' TextField
 #' @export
-#' @example inst/examples/TextField.R
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/material-ui/api/text-field/ for more information.
+#' Visit the documentation at https://mui.com/api/TextField/ for more information.
 TextField <- component("TextField")
 
 #' TextareaAutosize
@@ -1024,7 +1010,6 @@ TextareaAutosize <- component("TextareaAutosize")
 
 #' ToggleButton
 #' @export
-#' @example inst/examples/ToggleButton.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -1033,7 +1018,6 @@ ToggleButton <- component("ToggleButton")
 
 #' ToggleButtonGroup
 #' @export
-#' @example inst/examples/ToggleButton.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -1065,28 +1049,28 @@ Tooltip <- component("Tooltip")
 #' Visit the documentation at https://mui.com/api/Typography/ for more information.
 Typography <- component("Typography")
 
-#' useMediaQuery (NEW)
+#' useMediaQuery
 #' @export
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/Zoom/ for more information.
+#' Visit the documentation at https://mui.com/material-ui/react-use-media-query/ for more information.
 useMediaQuery <- component("useMediaQuery")
 
-#' usePagination (NEW)
+#' usePagination
 #' @export
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/Zoom/ for more information.
+#' Visit the documentation at https://mui.com/material-ui/react-pagination/#usepagination for more information.
 usePagination <- component("usePagination")
 
-#' useScrollTrigger (NEW)
+#' useScrollTrigger
 #' @export
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/Zoom/ for more information.
+#' Visit the documentation at https://mui.com/material-ui/react-app-bar/#usescrolltrigger-options-trigger/ for more information.
 useScrollTrigger <- component("useScrollTrigger")
 
 #' Zoom
@@ -1104,12 +1088,12 @@ Zoom <- component("Zoom")
 
 # DE: @mui/material/index.js
 
-#' useAutocomplete (NEW)
+#' useAutocomplete
 #' @export
 #' @md
 #' @param ... args to pass to element
 #' @description
-#' Visit the documentation at https://mui.com/api/Global-Styles/ for more information.
+#' Visit the documentation at https://mui.com/base-ui/react-autocomplete/hooks-api/#use-autocomplete/ for more information.
 useAutocomplete <- component("useAutocomplete")
 
 #' GlobalStyles
@@ -1120,7 +1104,7 @@ useAutocomplete <- component("useAutocomplete")
 #' Visit the documentation at https://mui.com/api/Global-Styles/ for more information.
 GlobalStyles <- component("GlobalStyles")
 
-#' StyledEngineProvider
+#' StyledEngineProvider (NO está)
 #' @export
 #' @md
 #' @param ... args to pass to element
@@ -1129,11 +1113,11 @@ GlobalStyles <- component("GlobalStyles")
 StyledEngineProvider <- component("StyledEngineProvider")
 
 
+
 # DE: @mui/material/styles/index.js
 
 #' ThemeProvider
 #' @export
-#' @example inst/examples/ThemeProvider.R
 #' @md
 #' @param ... args to pass to element
 #' @description
@@ -1147,7 +1131,7 @@ ThemeProvider <- component("ThemeProvider", module = "@custom4mui")
 #' #' @description
 #' #' Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
 #' createTheme <- component("createTheme")
-#'
+
 #' #' useTheme (NEW)
 #' #' @export
 #' #' @md
@@ -1166,3 +1150,92 @@ ThemeProvider <- component("ThemeProvider", module = "@custom4mui")
 DataGrid <- component("DataGrid", module = "@mui/x-data-grid")
 
 
+# DE: @toolpad/core/index.js
+
+#' AppProvider
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-app-provider/ for more information.
+AppProvider <- component("AppProvider", module = "@toolpad/core/AppProvider")
+
+#' DashboardLayout
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-dashboard-layout/ for more information.
+DashboardLayout <- component("DashboardLayout", module = "@toolpad/core/DashboardLayout")
+
+#' SignInPage
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-sign-in-page/ for more information.
+SignInPage <- component("SignInPage", module = "@toolpad/core/SignInPage")
+
+#' Account
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-account/ for more information.
+Account <- component("Account", module = "@toolpad/core/Account")
+
+#' PageContainer
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-page-container/ for more information.
+PageContainer <- component("PageContainer", module = "@toolpad/core/PageContainer")
+
+#' useActivePage
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-page-container/ for more information.
+useActivePage <- component("useActivePage", module = "@toolpad/core/useActivePage")
+
+#' useDialogs
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-use-dialogs/ for more information.
+useDialogs <- component("useDialogs", module = "@toolpad/core/useDialogs")
+
+#' useNotifications
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-use-notifications/ for more information.
+useNotifications <- component("useNotifications", module = "@toolpad/core/useNotifications")
+
+#' useLocalStorageState
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-persistent-state/ for more information.
+useLocalStorageState <- component("useLocalStorageState", module = "@toolpad/core/useLocalStorageState")
+
+#' useSessionStorageState
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-persistent-state/ for more information.
+useSessionStorageState <- component("useSessionStorageState", module = "@toolpad/core/useSessionStorageState")
+
+#' persistence
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/toolpad/core/react-persistent-state/ for more information.
+persistence <- component("persistence", module = "@toolpad/core/persistence")

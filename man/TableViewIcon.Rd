@@ -2,7 +2,7 @@
 % Please edit documentation in R/icons.R
 \name{TableViewIcon}
 \alias{TableViewIcon}
-\title{BartChartIcon}
+\title{TableViewIcon}
 \usage{
 TableViewIcon(...)
 }
@@ -10,5 +10,5 @@ TableViewIcon(...)
 \item{...}{args to pass to element}
 }
 \description{
-BartChartIcon
+TableViewIcon
 }

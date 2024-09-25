@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{StyledEngineProvider}
 \alias{StyledEngineProvider}
-\title{StyledEngineProvider}
+\title{StyledEngineProvider (NO está)}
 \usage{
 StyledEngineProvider(...)
 }

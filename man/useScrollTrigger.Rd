@@ -2,7 +2,7 @@
 % Please edit documentation in R/components.R
 \name{useScrollTrigger}
 \alias{useScrollTrigger}
-\title{useScrollTrigger (NEW)}
+\title{useScrollTrigger}
 \usage{
 useScrollTrigger(...)
 }
@@ -10,5 +10,5 @@ useScrollTrigger(...)
 \item{...}{args to pass to element}
 }
 \description{
-Visit the documentation at https://mui.com/api/Zoom/ for more information.
+Visit the documentation at https://mui.com/material-ui/react-app-bar/#usescrolltrigger-options-trigger/ for more information.
 }

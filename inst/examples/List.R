@@ -1,5 +1,5 @@
 library(shiny)
-library(shiny.mui)
+library(custom4mui)
 
 
 component_example(List(

@@ -12,35 +12,3 @@ Slider(...)
 \description{
 Visit the documentation at https://mui.com/api/Slider/ for more information.
 }
-\examples{
-library(shiny)
-library(custom4mui)
-
-ui <- fluidPage(
-
-  # Application title
-  titlePanel("Slider Example"),
-
-  # Slider input ------------------------------------------------------------
-  tags$text("Slider Input"),
-  p(),
-  Slider.shinyInput("text5",
-                    value = 5,
-                    color = "warning",
-                    valueLabelDisplay = "auto"),
-  textOutput("textValue5"),
-  tags$br(),
-
-)
-
-server <- function(input, output, session) {
-
-  #Output: Slider Input
-  output$textValue5 <- renderText({
-    sprintf("Value: \%s", input$text5)
-  })
-
-}
-
-shinyApp(ui, server)
-}

@@ -8,7 +8,15 @@
 #' @param ... args to pass to element
 #' @description
 #' Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
-createTheme <- component("createTheme")}
+createTheme <- component("createTheme")
+#' useTheme (NEW)
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
+useTheme <- component("useTheme")
+DataGrid}
 \usage{
 DataGrid(...)
 }
@@ -16,6 +24,13 @@ DataGrid(...)
 \item{...}{args to pass to element}
 }
 \description{
+#' createTheme (NEW)
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
+createTheme <- component("createTheme")
 #' useTheme (NEW)
 #' @export
 #' @md
