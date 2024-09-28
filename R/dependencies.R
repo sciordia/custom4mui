@@ -4,7 +4,7 @@
 muiDependency <- function() {
   htmltools::htmlDependency(
     name = "mui",
-    version = "6.1.1",
+    version = "0.2.3",
     package = "custom4mui",
     src = "www",
     script = "mui.js"
