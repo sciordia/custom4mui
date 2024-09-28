@@ -9,3 +9,4 @@ js/
 /.Ruserdata
 /renv
 /renv.lock
+.DS_Store
