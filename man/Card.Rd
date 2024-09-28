@@ -13,11 +13,26 @@ Card(...)
 Visit the documentation at https://mui.com/api/Card/ for more information.
 }
 \examples{
-library(shiny.mui)
 library(shiny)
-component_example(tagList(
+library(custom4mui)
+
+ui <- fluidPage(
+
+  # Application title
+  titlePanel("Card Example"),
+
+  # Card --------------------------------------------------------------------
+  tags$text("Card"),
   Card(
     CardContent("Hello world!")
-  )
-))
+  ),
+  tags$br(),
+
+)
+
+server <- function(input, output, session) {
+
+}
+
+shinyApp(ui, server)
 }

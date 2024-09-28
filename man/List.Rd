@@ -14,7 +14,7 @@ Visit the documentation at https://mui.com/api/List/ for more information.
 }
 \examples{
 library(shiny)
-library(shiny.mui)
+library(custom4mui)
 
 
 component_example(List(
